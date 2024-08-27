@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WALLET BOOLKY</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f1f1f1;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #007bff;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            position: relative;
+        }
+
+        .header img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .welcome {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .alert {
+            background-color: #d4edda;
+            color: #155724;
+            padding: 10px;
+            border-left: 5px solid #28a745;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .balance {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .balance .amount {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .balance-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        .balance-buttons a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            background-color: #ffc107;
+            border-radius: 5px;
+            text-align: center;
+            display: inline-block;
+            width: 45%;
+            box-sizing: border-box;
+        }
+
+        .balance-buttons a.secondary {
+            background-color: #28a745;
+        }
+
+        .transactions {
+            margin-bottom: 20px;
+        }
+
+        .transactions h2 {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .transaction-item {
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .transaction-item span {
+            display: block;
+            color: #333;
+        }
+
+        .transaction-item .icon {
+            font-size: 20px;
+            color: #007bff;
+            margin-right: 10px;
+        }
+
+        .navbar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: white;
+            border-top: 1px solid #ddd;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #007bff;
+            font-size: 14px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>WALLET BOOLKY</h1>
+        <img src="file:///C:/Users/Sergio/Downloads/WhatsApp%20Image%202024-08-26%20at%2019.18.03.jpeg" alt="User Avatar">
+    </div>
+
+    <div class="content">
+        <p class="welcome">Hello Bron Daniel,</p>
+
+        <div class="alert">
+            Nouveau virement de <strong>725,100.00 XOF</strong> reçu et crédité sur votre compte. 
+        </div>
+
+        <div class="balance">
+            <div class="amount">725,100.00 XOF</div>
+            <div class="balance-buttons">
+                <a href="file:///C:/Users/Sergio/Desktop/index.html/Compte.html" class="primary">Effectuer un virement</a>
+                <a href="file:///C:/Users/Sergio/Desktop/index.html/Compte.html" class="secondary">Ma carte</a>
+            </div>
+        </div>
+
+        <div class="transactions">
+            <h2>Historique des transactions</h2>
+            <div class="transaction-item">
+                <span class="icon">🏦</span>
+                <span>Virement reçu - WALLET BOOLKY</span>
+                <span>+55,000.00 XOF</span>
+                <span>21/01/2024 08:58</span>
+            </div>
+            <div class="transaction-item">
+                <span class="icon">🏦</span>
+                <span>Virement reçu - WALLET BOOLKY</span>
+                <span>+125,000.00 XOF</span>
+                <span>16/01/2024 18:24</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <a href="file:///C:/Users/Sergio/Desktop/index.html/Compte.html">Ma carte</a>
+        <a href="file:///C:/Users/Sergio/Desktop/index.html/Compte.html">Virement</a>
+        <a href="file:///C:/Users/Sergio/Desktop/index.html/Profil22.html">Mon compte</a>
+    </div>
+
+</body>
+</html>
